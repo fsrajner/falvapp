@@ -1,0 +1,18 @@
+{
+  "name": "mobile",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "generate-api": "npx react-query-swagger /tanstack /input:http://localhost:3000/api-json /output:src/api/axios-client.ts /template:Axios"
+  },
+  "dependencies": {
+    "@react-native/metro-config": "*",
+    "@testing-library/jest-native": "*",
+    "@testing-library/react-native": "*",
+    "metro-config": "*",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-query-swagger": "^15.11.0"
+  }
+}
